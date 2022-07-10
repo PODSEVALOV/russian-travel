@@ -1,0 +1,16 @@
+.website {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    gap: 12px;
+    max-width: 456px;
+    width: 100%;
+    margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+    .website {
+        max-width: 288px;
+        align-self: flex-start;
+    }
+}

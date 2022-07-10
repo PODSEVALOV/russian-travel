@@ -1,0 +1,39 @@
+.cover__link {
+    background-image: linear-gradient( rgba(42, 44, 47, 0.3), rgba(42, 44, 47, 0.3)), url('../../images/cover.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    min-height: 740px;
+    justify-content: center;
+    max-width: 1184px;
+    text-decoration: none;
+    width: 100%;
+}
+
+.cover__link:hover {
+    background-image: linear-gradient( rgba(42, 44, 47, 0.8), rgba(42, 44, 47, 0.8)), url('../../images/cover.jpg');
+}
+
+@media screen and (max-width: 1279px) {
+    .cover__link {
+        max-width: 1024px;
+        min-height: 640px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .cover__link {
+        max-width: 768px;
+        min-height: 480px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .cover__link {
+        max-width: 320px;
+        min-height: 200px;
+    }
+}
